@@ -7,13 +7,14 @@ Crypto implementations
 ## Index
 
 1. [Context](#context)
-2. [Project description](#project-description)
-3. [Prerequisites](#prerequisites)
-4. [Use](#use)
-5. [Example of output](#example-of-output)
-6. [Operation](#operation)
-7. [Acknowledgment](#acknowledgment)
-8. [Disclaimer](#disclaimer)
+2. [Why](#Why) 
+3. [Project description](#project-description)
+4. [Prerequisites](#prerequisites)
+5. [Use](#use)
+6. [Example of output](#example-of-output)
+7. [Operation](#operation)
+8. [Acknowledgment](#acknowledgment)
+9. [Disclaimer](#disclaimer)
 
 ---
 
