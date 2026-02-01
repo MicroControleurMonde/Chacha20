@@ -32,6 +32,22 @@ The provided modules are:
 
 ---
 
+## Why
+
+In the rapidly growing world of the Internet of Things (IoT), microcontrollers (MCUs) are increasingly required to handle sensitive data and secure communications. However, these devices often operate with limited RAM, processing power, and storage space, making it difficult or impossible to run standard, heavy cryptographic libraries (like OpenSSL) written for full-fledged Operating Systems.
+
+**The need for lightweight code:**
+
+1. **Resource Efficiency**: Standard cryptographic libraries are too large for the flash memory of many MCUs. These MicroPython implementations are stripped down to the essentials, fitting easily into the constrained memory budgets of devices like the ESP32 or Raspberry Pi Pico.
+2. **Performance**: ChaCha20 is specifically designed to be faster than older algorithms on software platforms that lack dedicated hardware acceleration for AES. It relies on simple additions, rotations, and XORs, which are handled efficiently by microcontrollers.
+3. **Flexibility**: By using MicroPython, developers gain the ability to <mark>prototype </mark>and deploy secure logic rapidly without the complexity of C/C++ memory management, while still maintaining a reasonable level of performance.
+4. **Modern Security**: Unlike outdated or proprietary algorithms often found in older MCU examples, ChaCha20-Poly1305 provides a modern, high-security standard (used in protocols like TLS 1.3 and SSH) that ensures both confidentiality (encryption) and integrity (authentication) of data.
+
+This project<mark> bridges the gap between high-end security and low-end hardware</mark>, enabling makers and engineers to encrypt communications (MQTT, Wi-Fi, LoRa) and stored data securely.
+
+---
+
+
 ## Project description
 
 ### 1. Chacha20.v0.py
