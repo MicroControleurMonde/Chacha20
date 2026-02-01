@@ -1,6 +1,6 @@
-# Chacha20 / ChaCha20-Poly1305
+# Chacha20 / ChaCha20-Poly1305 (Crypto implementations)
 
-Crypto implementations
+
 [![Security: ChaCha20](https://img.shields.io/badge/Security-Chacha20--Poly1305-blue)](https://tools.ietf.org/html/rfc7539)
 
 ---
